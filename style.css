@@ -65,7 +65,7 @@ h2 {
   margin-block-start: var(--s-2);
   padding: var(--s2) var(--s4);
   background-color: var(--secondary);
-  width: max-content;
+  width: fit-content;
   border-block-end: var(--s1) solid var(--secondary-dark);
 }
 
@@ -75,7 +75,7 @@ header {
 }
 
 .intro-chunk {
-  width: 50%;
+  max-width: 480px;
   padding-inline-start: var(--s3);
 }
 
